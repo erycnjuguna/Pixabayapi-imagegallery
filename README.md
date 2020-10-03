@@ -12,9 +12,6 @@ First i included [jquery cdn](https://code.jquery.com/jquery-3.5.1.min.js) and [
 
 Then i created an event listener for the form submition and calling a function to get the images
 
-To get images from the pixabay one is required get an apikey from their site :
-        - Login form this link [](https://pixabay.com/api/)
-        - Then Visit [](https://pixabay.com/api/docs/)
-        - scroll to the **parameters** section where you will find your **API KEY**
+To get images from the pixabay one is required get an apikey from their site Login from [this link](https://pixabay.com/api/) Then Visit [here](https://pixabay.com/api/docs/) to get your apikey finally scroll to the **parameters** section where you will find your **API KEY**
   
-Then send an axios request to [](https://pixabay.com/api/?key=YOURAPIKEY&q=SEARCHTEXT&image_type=photo) where searchtext is the value from the search box and key is your api key.this will return an array of objects use jquery to set data into your HTML  
+Then send an axios request to https://pixabay.com/api/?key=YOURAPIKEY&q=SEARCHTEXT&image_type=photo where searchtext is the value from the search box and key is your api key.this will return an array of objects use jquery to set data into your HTML  
